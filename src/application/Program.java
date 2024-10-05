@@ -11,12 +11,11 @@ public class Program {
 	public static void main(String[] args) {
 		
 		Locale.setDefault(Locale.US);
-		// TODO Auto-generated method stub
 
 		SellerDao sellerDao = DaoFactory.createSellerDao();
 		
+		System.out.println("=== Test 1: seller findById ===");
 		Seller seller = sellerDao.findById(3);
-		
 		System.out.println(seller);
 
 	}
