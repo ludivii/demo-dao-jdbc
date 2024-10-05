@@ -14,7 +14,7 @@ public class Program {
 		// TODO Auto-generated method stub
 		
 		Department obj = new Department(1, "books");
-		Seller seller = new Seller(1, "Maria", "maria@gmail.com", new Date(), 3.000, obj);
+		Seller seller = new Seller(1, "Maria", "maria@gmail.com", new Date(), 3000.00, obj);
 		
 		System.out.println(obj);
 		System.out.println(seller);
